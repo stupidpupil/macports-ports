@@ -9,8 +9,8 @@ PortGroup               legacysupport 1.1
 legacysupport.newest_darwin_requires_legacy 10
 
 name                    aom
-version                 3.13.1
-revision                2
+version                 3.14.1
+revision                0
 categories              multimedia
 maintainers             {mcalhoun @MarcusCalhoun-Lopez} openmaintainer
 license                 BSD
@@ -35,7 +35,7 @@ compiler.c_standard     1999
 set pyver               3.14
 set python_version      [string index ${pyver} 0][string range ${pyver} 2 end]
 
-depends_build-append    port:git \
+depends_build-append    bin:git:git \
                         port:perl5 \
                         port:python${python_version}
 

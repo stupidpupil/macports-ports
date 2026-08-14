@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           github 1.0
 PortGroup           cargo 1.0
 
-github.setup        M-Igashi mp3rgain 3.1.0 v
+github.setup        M-Igashi mp3rgain 3.2.0 v
 github.tarball_from archive
 revision            0
 
@@ -28,9 +28,9 @@ long_description    ${name} is a modern Rust reimplementation of the classic \
                     aacgain port.
 
 checksums           ${distname}${extract.suffix} \
-                    rmd160  1c0f251832aeeaa110a24cee4c1e35d19b27aa16 \
-                    sha256  a3fb2e9ac4ddab5f08ea768b1abc1ed549985589b4b07c49718497c37295de63 \
-                    size    543556
+                    rmd160  178f33789f9028674cdf5655229eb5ff38b64988 \
+                    sha256  67a6c44e773099aff526614c558196c0aeb70d1852c8958c16404445a16bf8a5 \
+                    size    551671
 
 cargo.crates \
     adler2                       2.0.1            320119579fcad9c21884f5c4861d16174d0e06250625266f50fe6898340abefa \
